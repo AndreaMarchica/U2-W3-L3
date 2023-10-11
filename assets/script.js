@@ -20,7 +20,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
     for (let i = 0; i < libraryData.length; i++) {
       const rowReference = document.getElementById("rack");
       const newCol = document.createElement("div");
-      newCol.classList.add("col,col-4,col-lg-2");
+      newCol.classList.add("col");
       newCol.classList.add("col-lg-2");
       newCol.classList.add("col-4");
       newCol.classList.add("h-50");
