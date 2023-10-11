@@ -36,7 +36,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
       newTitle.classList.add("text-decoration-underline");
       newTitle.textContent = libraryData[i].title;
       const newCategory = document.createElement("h6");
-      newCategory.textContent = libraryData[0].category;
+      newCategory.textContent = libraryData[i].category;
       const newAsin = document.createElement("h6");
       newAsin.textContent = libraryData[i].asin;
       const newPrice = document.createElement("h6");
